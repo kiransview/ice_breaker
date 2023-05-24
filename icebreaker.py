@@ -20,7 +20,7 @@ if __name__ == "__main__":
     chain = LLMChain(llm=llm, prompt=summary_prompt_template)
 
     linkedin_data = scrape_linkedin_profile(
-        linkedin_profile_url="https://www.linkedin.com/in/naikkrish/"
+        linkedin_profile_url="https://www.linkedin.com/in/shashikiranc/"
     )
 
     print(chain.run(information=linkedin_data))
